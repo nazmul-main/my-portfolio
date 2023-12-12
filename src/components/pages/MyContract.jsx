@@ -29,8 +29,8 @@ const MyContract = () => {
             <Titile heading={'My Contact'}></Titile>
 
 
-            <div className="flex">
-                <div className="w-4/6">
+            <div className="md:flex mx-auto">
+                <div className="md:w-4/6  px-6">
                     <form  ref={form} onSubmit={sendEmail} className="max-w-md mx-auto ">
                         <div className="relative z-0 w-full mb-5 group">
                             <input type="text" name="form_name" id="floating_email" className="block py-2.5 px-0 w-full text-sm text-gray-300 bg-transparent border-0 border-b-2 border-gray-300 appearance-none   focus:outline-none focus:ring-0 focus:border-green-600 peer" placeholder=" " required />
