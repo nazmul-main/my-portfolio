@@ -27,6 +27,56 @@ const About = () => {
                     </div>
                 </div>
             </div>
+            <div className="md:flex justify-center items-center gap-5">
+                <div className=" md:w-4/5 space-y-6 ">
+                    <h2 className="text-2xl md:text-4xl my-4 font-semibold text-[#adadad] text-center">Education</h2>
+
+
+                    <div tabIndex={0} className="collapse collapse-arrow border border-[#adadad46] text-[#adadad] bg-[#113a2642]">
+                        <div className="collapse-title text-xl font-medium">
+                            Secondary School Certificate (SSC)
+                        </div>
+                        <div className="collapse-content">
+                            <p><span className="font-semibold">School: </span>Nizam Uddin High School, Karnibari</p>
+                            <p><span className="font-semibold">Group: </span>Humanites</p>
+                            <p><span className="font-semibold">Session: </span>2017-2018</p>
+                            <p><span className="font-semibold">GPA: </span>4.33</p>
+
+                        </div>
+                    </div>
+                    <div tabIndex={0} className="collapse collapse-arrow border border-[#adadad46] text-[#adadad] bg-[#113a2642]">
+                        <div className="collapse-title text-xl font-medium">
+                            Higher School Certificate (HSC)
+                        </div>
+                        <div className="collapse-content">
+                            <p><span className="font-semibold">School: </span>Bogura YMCA Public School & College</p>
+                            <p><span className="font-semibold">Group: </span>Humanites</p>
+                            <p><span className="font-semibold">Session: </span>2019-2020</p>
+                            <p><span className="font-semibold">GPA: </span>4.50</p>
+
+                        </div>
+                    </div>
+                    <div tabIndex={0} className="collapse collapse-arrow border border-[#adadad46] text-[#adadad] bg-[#113a2642]">
+                        <div className="collapse-title text-xl font-medium">
+                            Hons
+                        </div>
+                        <div className="collapse-content">
+                            <p><span className="font-semibold">School: </span>Govt. Shah Sultan College,Bogura</p>
+                            <p><span className="font-semibold">Subject: </span>History</p>
+                            <p><span className="font-semibold">Session: </span>2020-2024</p>
+                            <p><span className="font-semibold">Runing... </span></p>
+
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+               
+                
+            </div>
+            
         </div>
     );
 };

@@ -2,7 +2,7 @@
 
 const Navbar = () => {
     return (
-        <div className="fixed z-10 p-3">
+        <div className=" z-10 p-3">
 
 
 
