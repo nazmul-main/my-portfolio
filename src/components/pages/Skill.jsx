@@ -92,6 +92,32 @@ const Skill = () => {
                     </div>
                 </div>
             </div>
+            <div className="md:flex justify-center items-center gap-5">
+                <div className=" md:w-2/5 space-y-6 ">
+                    <h2 className="text-2xl md:text-4xl my-4 font-semibold text-[#adadad] text-center md:mt-12" >EXPERIENCE</h2>
+
+
+                    <div tabIndex={0} className="collapse collapse-arrow border border-[#adadad46] text-[#adadad] bg-[#113a2642]">
+                        <div className="collapse-title text-xl font-medium">
+                        Learning Experience
+                        </div>
+                        <div>
+                            <p className="pl-3 ">
+                                Over the past year, I completed a web development course with Programming Hero, gaining expertise in HTML, CSS, Tailwind, JavaScript, ReactJS, NextJS, and backend technologies such as NodeJS, ExpressJS, MongoDB, and Mongoose. Additionally, I am familiar with essential tools including Postman, Git, GitHub, and VS Code. This comprehensive learning experience has equipped me with a diverse skill set, allowing me to create dynamic and responsive web applications while efficiently utilizing industry-standard development tools.</p>
+
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+                </div>
+
+
+            </div>
 
         </div>
     );
