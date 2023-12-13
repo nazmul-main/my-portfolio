@@ -5,7 +5,7 @@ import { TypeAnimation } from "react-type-animation";
 const Banner = () => {
     return (
         <div className="w-full relative h-[30vh] md:h-[80vh] lg:[80vh] bg-[#0C141B] leading-3 mb-24 ">
-            <div className="flex flex-row h-full justify-evenly items-center relative">
+            <div className="flex flex-row h-full justify-evenly items-center relative pl-4">
                 <div>
                     <TypeAnimation
                         className="text-[#b9b9b9]  "
