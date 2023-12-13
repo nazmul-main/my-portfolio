@@ -1,5 +1,5 @@
 import Titile from "../../Shared/Titile";
-import about2 from "../../../public/images/about3.png";
+import about2 from "../../../public/about2.png";
 
 const About = () => {
     return (
@@ -13,7 +13,7 @@ const About = () => {
             <Titile heading={'About ME'}></Titile>
             <div className="flex items-center justify-center ">
                 <div className="w-2/5">
-                    <img className="" src="/public/images/about1.png" alt="" />
+                    <img className="" src="/public/about1.png" alt="" />
                 </div>
                 <div className="w-4/5 space-y-8 text-[#adadad]">
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis mollitia sit sed cupiditate quisquam. Odit assumenda quas a, harum eaque accusamus debitis voluptas, tempora magnam eveniet corrupti corporis dolor eligendi nostrum error dolorum dicta. Qui ea fugit id consequuntur saepe laudantium nemo labore delectus placeat snam expedita quam totam!</p>

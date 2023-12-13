@@ -27,25 +27,29 @@ const Banner = () => {
                         repeat={Infinity}
                     />
                     <h2 className="text-[24] md:text-4xl lg:text-7xl mt-3 font-semibold text-[#adadad]">Hi, I'm <span className="text-[rgb(26,134,75)] font-bold ">Nazmul</span> <br /> From Bangladesh </h2><br />
-                    <button className="md:text-[18px] mt-4 py-2 rounded-md hover:bg-[#4ca575] px-2 text-[#fff] bg-[#1a864b] text-[12px]">
-                        <a
-                            href="/public/images/SCIC A-2 - Google Docs.pdf"
-                            download='CV'
-                            className="flex gap-2"
-                        >My Resume  <FaDownload /></a>
-                    </button>
                 </div>
+
+
                 <div className="h-full ">
-                    <img className="h-full object-cover" src="/public/images/web.png" alt="" />
+                    <img className="h-full object-cover" src="/public/web.png" alt="" />
 
                 </div>
             </div>
             <div className="absolute top-0 left-0 w-full h-full overflow-hidden">
                 <img
                     className=" object-cover rotate-10  opacity-5 w-full h-full"
-                    src="/public/images/code.png" alt=""
+                    src="/public/code.png" alt=""
                 />
             </div>
+            <a
+                href="/public/Reume.pdf"
+                download={'Resume'}
+                type="submit"
+                className="flex items-center justify-center text-white bg-[rgba(26,134,75,0.51)] hover:bg-[rgba(26,134,75,0.7)]  focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5"
+            >
+                <span className="mr-2">My Resume</span>
+                <FaDownload className="text-xl" />
+            </a>
         </div>
 
 
