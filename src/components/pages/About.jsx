@@ -1,5 +1,5 @@
 import Titile from "../../Shared/Titile";
-import about2 from "../../../public/about2.png";
+import about2 from "../../assets/about2.png";
 
 const About = () => {
     return (

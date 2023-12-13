@@ -1,7 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 import { FaDownload } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
-
+import web from "../assets/web.png";
+import code from "../assets/code.png";
 const Banner = () => {
     return (
         <div className="w-full relative h-[30vh] md:h-[80vh] lg:[80vh] bg-[#0C141B] leading-3 mb-24 ">
@@ -31,19 +32,19 @@ const Banner = () => {
 
 
                 <div className="h-full ">
-                    <img className="h-full object-cover" src="/public/web.png" alt="" />
+                    <img className="h-full object-cover" src={web} alt="" />
 
                 </div>
             </div>
             <div className="absolute top-0 left-0 w-full h-full overflow-hidden">
                 <img
                     className=" object-cover rotate-10  opacity-5 w-full h-full"
-                    src="/public/code.png" alt=""
+                    src={code} alt=""
                 />
             </div>
             <a
                 href="/public/Reume.pdf"
-                download={'Resume'}
+                // download={'Resume'}
                 type="submit"
                 className="flex items-center justify-center text-white bg-[rgba(26,134,75,0.51)] hover:bg-[rgba(26,134,75,0.7)]  focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5"
             >
