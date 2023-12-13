@@ -25,7 +25,7 @@ const MyContract = () => {
 
 
     return (
-        <div className="max-w-screen-xl mx-auto my-12">
+        <div className="max-w-screen-xl mx-auto min-h-screen ">
             <Titile heading={'My Contact'}></Titile>
 
 

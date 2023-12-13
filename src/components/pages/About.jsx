@@ -5,7 +5,7 @@ const About = () => {
     return (
         <div
             style={{ position: 'relative', backgroundImage: `url${about2}` }}
-            className="max-w-screen-xl mx-auto px-4 bg-[#] "
+            className="max-w-screen-xl min-h-screen mx-auto px-4 bg-[#] "
         >
             <div
 

@@ -3,7 +3,7 @@ import Titile from "../../Shared/Titile";
 
 const Skill = () => {
     return (
-        <div className="max-w-screen-xl mx-auto px-4 my-24 bg-[]">
+        <div className="max-w-screen-xl min-h-screen mx-auto px-4  bg-[]">
             <Titile heading={'My Skill'}></Titile>
 
             <div className="md:flex gap-12 justify-center items-center  my-8">

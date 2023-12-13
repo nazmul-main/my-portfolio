@@ -8,6 +8,9 @@ import {
 import Home from './components/pages/Home';
 import MainLayout from './components/MainLayout/MainLayout';
 import About from './components/pages/About';
+import MyProject from './components/pages/MyProject';
+import Skill from './components/pages/Skill';
+import MyContract from './components/pages/MyContract';
 
 
 const router = createBrowserRouter([
@@ -22,7 +25,19 @@ const router = createBrowserRouter([
       {
         path: "/about",
         element: <About></About>
-      }
+      },
+      {
+        path: "/mySkill",
+        element: <Skill></Skill>
+      },
+      {
+        path: "/myProject",
+        element: <MyProject></MyProject>
+      },
+      {
+        path: "/contact",
+        element: <MyContract></MyContract>
+      },
     ]
   },
 ]);
