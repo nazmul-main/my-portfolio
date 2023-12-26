@@ -1,4 +1,7 @@
 import Titile from "../../Shared/Titile";
+import project1 from "../../assets/Untitled (1).png"
+import project2 from "../../assets/Untitled (2).png"
+import project3 from "../../assets/Untitled (3).png"
 
 const MyProject = () => {
     return (
@@ -7,7 +10,7 @@ const MyProject = () => {
 
             <div className="md:flex items-center  gap-12  space-y-12 md:space-y-0" >
                 <div>
-                    <img className="w-4/5 md:w-full mx-auto" src="/images/Untitled (1).png " alt="" />
+                    <img className="w-4/5 md:w-full mx-auto" src={project1} alt="" />
                     <div className="md:flex items-center justify-center gap-7 space-y-4 space-x-2 mt-1 ">
                         <a href="https://smart-asset-managment.web.app/" className="outline-none btn btn-sm bg-green-600 mt-4 ">
                             Live Link</a>
@@ -18,7 +21,7 @@ const MyProject = () => {
                     </div>
                 </div>
                 <div>
-                    <img src="/images/Untitled (2).png" alt="" />
+                    <img src={project2} alt="" />
                     <div className="md:flex items-center justify-center gap-7 space-y-4 space-x-2 mt-1 ">
                         <a href="https://the-blogopolis.web.app/"  className="outline-none btn btn-sm bg-green-600 mt-4 ">
                             Live Link</a>
@@ -29,7 +32,7 @@ const MyProject = () => {
                     </div>
                 </div>
                 <div>
-                    <img src="/images/Untitled (3).png" alt="" />
+                    <img src={project3} alt="" />
                    
                     <div className="md:flex items-center justify-center gap-7 space-y-4 space-x-2 mt-1 ">
                         <a href="https://brand-sotre.web.app/" className="outline-none btn btn-sm bg-green-600 mt-4 ">

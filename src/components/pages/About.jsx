@@ -17,7 +17,7 @@ const About = () => {
                     <img className="" src={about1} alt="" />
                 </div>
                 <div className="w-4/5 space-y-8 text-[#adadad]">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis mollitia sit sed cupiditate quisquam. Odit assumenda quas a, harum eaque accusamus debitis voluptas, tempora magnam eveniet corrupti corporis dolor eligendi nostrum error dolorum dicta. Qui ea fugit id consequuntur saepe laudantium nemo labore delectus placeat snam expedita quam totam!</p>
+                    <p>I'm Nazmul, a passionate front-end developer dedicated to crafting seamless and engaging user experiences. With a keen eye for design and a love for clean code, I transform ideas into interactive web applications. My toolbox includes HTML, CSS, JavaScript, and various modern frameworks. When not coding, you'll find me exploring new technologies, contributing to open source projects, and continuously honing my skills to stay at the forefront of web development. Let's build something amazing together! 💻✨</p>
                     <div className="border-2 p-4 space-y-2">
                         <h2 className="text-[18px]"><span className="font-semibold mr-7">Name: </span> MD Nazmul Hossen</h2>
                         <h2 className="text-[18px]"><span className="font-semibold mr-9">Birth: </span> November, 10, 2002</h2>

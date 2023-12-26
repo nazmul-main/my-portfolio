@@ -1,6 +1,7 @@
 import Titile from "../../Shared/Titile";
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 import emailjs from '@emailjs/browser';
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 import { useRef } from "react";
 
 
@@ -13,12 +14,12 @@ const MyContract = () => {
     const sendEmail = (e) => {
         e.preventDefault();
         emailjs.sendForm('service_qq73p72', 'template_xyo85wg', form.current, 'BwWYSCh22KjBFTByU')
-          .then((result) => {
-              console.log(result.text);
-          }, (error) => {
-              console.log(error.text);
-          });
-      };
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+    };
 
 
 
@@ -31,7 +32,7 @@ const MyContract = () => {
 
             <div className="md:flex mx-auto">
                 <div className="md:w-4/6  px-6">
-                    <form  ref={form} onSubmit={sendEmail} className="max-w-md mx-auto ">
+                    <form ref={form} onSubmit={sendEmail} className="max-w-md mx-auto ">
                         <div className="relative z-0 w-full mb-5 group">
                             <input type="text" name="form_name" id="floating_email" className="block py-2.5 px-0 w-full text-sm text-gray-300 bg-transparent border-0 border-b-2 border-gray-300 appearance-none   focus:outline-none focus:ring-0 focus:border-green-600 peer" placeholder=" " required />
                             <label className="peer-focus:font-medium absolute text-sm text-gray-500  duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-green-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Your Name</label>
@@ -65,7 +66,10 @@ const MyContract = () => {
                 </div>
 
             </div>
-
+            <MessengerCustomerChat
+                pageId="<PAGE_ID>"
+                appId="<APP_ID>"
+            />,
 
         </div>
     );
