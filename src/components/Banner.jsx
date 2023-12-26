@@ -3,7 +3,7 @@ import { FaDownload } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import web from "../assets/web.png";
 import code from "../assets/code.png";
-import resume from "../assets/Reume.pdf";
+import resume from "../assets/Resume Front-end.pdf";
 const Banner = () => {
     return (
         <div className="w-full relative h-[30vh] md:h-[80vh] lg:[80vh] bg-[#0C141B] leading-3 mb-24 ">
